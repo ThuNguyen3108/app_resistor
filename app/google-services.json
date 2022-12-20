@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "328949169594",
+    "project_id": "dientro-1e0e4",
+    "storage_bucket": "dientro-1e0e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328949169594:android:ea0e34395395a3b1c17183",
+        "android_client_info": {
+          "package_name": "com.example.introduce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328949169594-0o8q06vt759oeu0k1mapaa7h0hi9hqal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.introduce",
+            "certificate_hash": "326cf7f1090093c693a3fc6897a591e0e8f7dfc6"
+          }
+        },
+        {
+          "client_id": "328949169594-30r5e0ljiqjh4m0vsvl8d5o4lj4ubttk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.introduce",
+            "certificate_hash": "a23c63cedfffcb7fae009eb7426443c0bb018c3c"
+          }
+        },
+        {
+          "client_id": "328949169594-3na0v2k9jkikmq4nacg4p55lca27jm6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYZnC0oau0RvFPFsQmw-9W5e5VCginyoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328949169594-3na0v2k9jkikmq4nacg4p55lca27jm6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

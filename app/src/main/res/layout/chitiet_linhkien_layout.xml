@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".thamkhao.ChiTietLinhKienActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-180dp"
+        android:weightSum="3">
+        <TableRow>
+
+            <ImageView
+                android:layout_width="126dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:onClick="ClickBack5"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:layout_width="255dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:onClick="ClickHome"
+                android:src="@drawable/home" />
+        </TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Thông tin chi tiết linh kiện"
+            android:textStyle="italic"
+            android:textColor="#DA3EF4"
+            android:textSize="30sp"
+            android:gravity="center">
+        </TextView>
+
+
+    </TableLayout>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/dt1" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:text="Tên: "/>
+
+            <TextView
+                android:id="@+id/ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Giá trị vạch 1: "/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:text="Giá trị: "/>
+
+            <TextView
+                android:id="@+id/giatri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Giá trị vạch 1: "/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:text="Thương hiệu: "/>
+
+            <TextView
+                android:id="@+id/thieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Giá trị vạch 3: "/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:text="Chi tiết: "/>
+
+
+            <TextView
+                android:id="@+id/chitiet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Giá trị vạch 4: "/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

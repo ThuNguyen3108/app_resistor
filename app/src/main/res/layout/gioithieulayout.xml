@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Hướng dẫn"
+        android:textColor="#EA2C1E"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="405dp"
+        android:layout_height="183dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="198dp"
+        android:src="@drawable/dtro1">
+
+    </ImageView>
+
+    <TableLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/vach1"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Vạch 1: "
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vach1Text"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:text="định nghĩa cho giá trị hàng chục trong giá trị điện trở"
+                android:textSize="15sp" />
+
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/vach2"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Vạch 2: "
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+            <TextView android:id="@+id/vach2Text"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:text="định nghĩa cho hàng đơn vị trong giá trị điện trở"
+                android:textSize="15sp"
+                />
+
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/vach3"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Vạch 3: "
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+            <TextView android:id="@+id/vach3Text"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:text="định nghĩa cho hệ số nhân với giá trị số mũ của 10 dùng nhân với giá trị điện trở"
+                android:textSize="15sp"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/vach4"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Vạch 4: "
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView android:id="@+id/vach4Text"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:text="định nghĩa cho giá trị sai số của điện trở"
+                android:textSize="15sp"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:onClick="ClickContinue1"
+        android:text="Continue"/>
+
+    <Button
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="69dp"
+        android:onClick="ClickBack1"
+        android:text="Back" />
+</RelativeLayout>

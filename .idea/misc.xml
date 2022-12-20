@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/bangmau_list_item.xml" value="0.18070652173913043" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/bangmaulayout.xml" value="0.18070652173913043" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/chitiet_linhkien_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/chitiet_machdien_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/chonlayout.xml" value="0.25416666666666665" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/gioithieulayout.xml" value="0.19021739130434784" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/item_resistorcolor.xml" value="0.25416666666666665" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/linhkien_list_item.xml" value="0.264" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/linhkienlayout.xml" value="0.25416666666666665" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/machdien_list_item.xml" value="0.17798913043478262" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/machdienlayout.xml" value="0.16058394160583941" />
+        <entry key="..\:/CT291/Introduce/app/src/main/res/layout/one_item_camera.xml" value="0.1671195652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

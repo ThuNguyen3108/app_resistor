@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".thamkhao.ChonActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-200dp"
+        android:layout_marginBottom="40dp"
+        android:weightSum="3">
+        <TableRow>
+
+            <ImageView
+                android:layout_width="126dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:onClick="ClickBack4"
+                android:src="@drawable/back" />
+        </TableRow>
+
+    </TableLayout>
+    <TableLayout
+        android:layout_marginTop="-50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="Bạn muốn xem gì ?"
+                android:layout_marginBottom="10dp"
+                android:textColor="#E1306C"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <TableRow
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/imagelk"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="linhkien"
+                android:src="@drawable/linhkien" />
+
+            <ImageView
+                android:id="@+id/imagemd"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="machdien"
+                android:src="@drawable/machdien" />
+        </TableRow>
+
+        <TableRow
+            android:weightSum="2">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Xem linh kiện"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#DC2635"/>
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Xem mạch điện"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#DC2635"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
